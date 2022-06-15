@@ -22,7 +22,7 @@ void main(int argc, char *argv[]){
         char buff[BUFSIZE];
         
         
-
+        printf("Input.txt:\n");
         while(fgets(buff, BUFSIZE - 1, input) != NULL){
                 printf("%s",buff);
         }
