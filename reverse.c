@@ -29,8 +29,21 @@ void main(int argc, char *argv[]){
     
         readfileinreverse(input,output);
 
-
         fclose(input);
+        fclose(output);
+
+        FILE * outputr = fopen("output.txt", "r");
+
+        if (outputr == NULL){
+                printf("Could not open file\n");
+                exit(-1);
+        }
+
+        printf("\nOutput.txt:\n");
+        while(fgets(buff, BUFSIZE - 1, outputr) != NULL){
+                printf("%s",buff);
+        }
+
         fclose(output);
 
 }
