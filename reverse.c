@@ -14,36 +14,12 @@ void main(int argc, char *argv[]){
         }
 
         char buff[BUFSIZE];
+        
+        
 
         while(fgets(buff, BUFSIZE - 1, input) != NULL){
                 printf("%s",buff);
         }
-
-        //FROM https://stackoverflow.com/questions/6922829/read-file-backwards-last-line-first
-        /*char len[400];
-        int i;
-        int ch;
-        int count;
-
-        fseek(input, 0, SEEK_END);
-        while(ftell(input)>1){
-                fseek(input, -2, SEEK_CUR);
-                if(ftell(input) <= 2)
-                        break;
-                ch =fgetc(input);
-                count = 0;
-                while(ch != '\n'){
-                        len[count++] = ch;
-                        if(ftell(input) < 2)
-                                break;
-                        fseek(input, -2, SEEK_CUR);
-                        ch =fgetc(input);
-                }
-                for (i =count -1 ; i >= 0 && count > 0  ; i--)
-                        printf("%c", len[i]);
-                        fprintf(output,"%d",len[i]);
-                printf("\n");
-        }*/
 
         readfileinreverse(input,output);
 
@@ -57,12 +33,17 @@ void readfileinreverse(FILE *fp, FILE *out)
 {
     int i, size, start, loop, counter;
     char *buffer;
-    char line[256];
+    char line[BUFSIZE];
     start = 0;
     fseek(fp, 0, SEEK_END);
     size = ftell(fp);
 
     buffer = malloc((size+1) * sizeof(char));
+    
+    if(buffer==NULL){
+            printf("Memory not allocated.\n");
+            exit(1);
+    }
 
     for (i=0; i< size; i++)
     {
@@ -106,7 +87,8 @@ void readfileinreverse(FILE *fp, FILE *out)
         line[counter] = 0;
         printf("%s\n",line);
         fprintf(out, "%s\n", line);
-
+        
+        free(buffer);
 
         return;
     }
