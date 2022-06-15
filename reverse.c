@@ -26,7 +26,7 @@ void main(int argc, char *argv[]){
         while(fgets(buff, BUFSIZE - 1, input) != NULL){
                 printf("%s",buff);
         }
-        printf("\nOutput.txt:\n");
+    
         readfileinreverse(input,output);
 
 
