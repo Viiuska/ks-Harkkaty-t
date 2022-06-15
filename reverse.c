@@ -5,6 +5,12 @@
 #define BUFSIZE 1000
 
 void main(int argc, char *argv[]){
+        
+        if(argc > 1){
+                printf("Too many arguments\n");
+                exit(1);
+        }
+        
         FILE * input = fopen("input.txt","r");
         FILE * output = fopen("output.txt", "w");
 
