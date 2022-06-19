@@ -7,8 +7,8 @@ reverse.c
 input.txt
 
 How to run:
-download files and translate with gcc
-Then run it with promt> ./reverse
+download files and translate with gcc command.
+Then run it with prompt> ./reverse
 
 Projekti *****:
 
