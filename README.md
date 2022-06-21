@@ -15,6 +15,7 @@ Then run it with prompt> ./reverse
 Projekti kakkonen:
 
 my-cat.c
+
 translate: gcc -O2 -Wall -Werror -o my-cat my-cat.c
 run: prompt> ./my-cat filename
 
