@@ -14,6 +14,12 @@ Then run it with prompt> ./reverse
 
 Projekti kakkonen:
 
+my-cat.c
 
+my-grep.c
+
+my-zip.c
+
+my-unzip.c
 
 Projekti ******:
