@@ -5,6 +5,11 @@
 
 int main (int argc, char *argv[]) {
     
+    if(argc < 1){
+        printf("Too few arguments given\n");
+        exit(1);
+    }
+    
     //Tämä sitten for rakenteeseen jos käyttäjä 
     //haluaa lukea monta tiedotoa yhdellä kertaa
     
