@@ -16,8 +16,9 @@ Projekti kakkonen:
 
 my-cat.c
 
-translate: gcc -O2 -Wall -Werror -o my-cat my-cat.c \n
-run: prompt> ./my-cat filename\n
+translate: gcc -O2 -Wall -Werror -o my-cat my-cat.c
+
+run: prompt> ./my-cat filename
 
 my-grep.c
 
