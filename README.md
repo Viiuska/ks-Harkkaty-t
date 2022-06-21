@@ -1,5 +1,7 @@
 # ks-Harkkaty-t
 
+Documentation:https://lut-my.sharepoint.com/:w:/g/personal/viia_mantymaki_student_lut_fi/EdWDdJmp_4xGncaIHD9MDz8BUPFXFt2reJ5VESiZycGsbg?e=raaoup
+
 Projekti ykkönen:
 
 reverse.c
