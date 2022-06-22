@@ -5,12 +5,12 @@
 
 int main (int argc, char *argv[]) {
     
-    if(argc < 1){
+    if(argc == 1){
         printf("Too few arguments given\n");
         exit(1);
     }
     
-    for(int i=1; i<=argc; i++){
+    for(int i=1; i<argc; i++){
     
         FILE *fp = fopen(argv[i], "r");
         
