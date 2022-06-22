@@ -22,6 +22,10 @@ run: prompt> ./my-cat filename
 
 my-grep.c
 
+translate: gcc -O2 -Wall -Werror -o my-grep my-grep.c
+
+run: prompt> ./my-grep searchterm filename
+
 my-zip.c
 
 my-unzip.c
