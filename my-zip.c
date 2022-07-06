@@ -88,3 +88,42 @@ int main(int argc, char **argv) {
     }
     return 0;
 }
+
+
+
+
+//säätöä menossa 3 versio kesken
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void compress(char *filename) {
+    //char prev;
+    char curr;
+    //int count = 0;
+    //char str[60];
+    
+    FILE *fp = fopen(filename, "rb");
+    
+    if(fp == NULL){
+        printf("[%s] file does not exist, exiting program ..\n", filename);
+        exit(1);
+    }
+    
+    curr = fgetc(fp);
+    printf("%c",curr);
+
+    fclose(fp);
+}
+
+int main(int argc, char **argv) {
+    int i = 0;
+    if(argc < 2) {
+        printf("wzip: file1 [file2 ...]\n");
+        exit(1);
+    }
+    for(i = 1; i < argc; i++) {
+            compress(argv[i]);
+    }
+    return 0;
+}
