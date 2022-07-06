@@ -32,4 +32,9 @@ my-unzip.c
 Translate: gcc -O2 -Wall -Werror -o my-unzip my-unzip.c
 Then run: ./my-unzip output.z > outfile.txt
 
-*************** Projekti x ***********************
+*************** Projekti kolmonen ***********************
+
+wish.c
+
+
+batch.txt
