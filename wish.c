@@ -21,6 +21,29 @@ void execArgs(char** parsed)
         return;
     }
 }
+//From https://www.geeksforgeeks.org/making-linux-shell-c/
+/*void execArgs(char** parsed)
+{
+    // Forking a child
+    pid_t pid = fork();
+    char *args[3];
+    args[0] = paths;
+    args[1]  =  parsed[0];
+    args[2] = NULL;
+
+    if (pid == -1) {
+        printf("\nFailed forking child..");
+        return;
+    } else if (pid == 0) {
+        if (execv(paths, args) < 0) {
+        }
+        exit(0);
+    } else {
+        // waiting for child to terminate
+        wait(NULL);
+        return;
+    }
+}*/
 
 //Help from https://github.com/tanishqjasoria/wish/blob/master/wish.c
 int main(){
