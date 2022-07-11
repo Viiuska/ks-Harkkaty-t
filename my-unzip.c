@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void decompress(char *path) {
+void decompressfile(char *filename) {
     char curr = 0;
     int count = 0;
-    FILE *fp = fopen(path, "r");
+    
+    FILE *fp = fopen(filename, "r");
     if(fp == NULL) {
-        printf("[%s] file does not exist.", path);
+        printf("[%s] file does not exist.", filename);
         exit(1);
     }
     while(1) {
@@ -15,8 +16,7 @@ void decompress(char *path) {
             break;
         }
        fread(&curr, 1, 1, fp);{
-        int i = 0;
-        for(i = 0; i < count; i++) {
+       for(int i = 0; i < count; i++) {
             fwrite(&curr, 1, 1, stdout);
             }
         }
@@ -26,11 +26,13 @@ void decompress(char *path) {
 
 int main(int argc, char **argv) {
     int i = 0;
+    
     if(argc < 2) {
         printf("my-unzip: file1 [file2 ...]\n"); exit(1);
         }
+    
     for(i = 1; i < argc; i++) {
-        decompress(argv[i]);
+        decompressfile(argv[i]);
         }
     return 0;
 }
