@@ -25,12 +25,12 @@ translate: gcc -O2 -Wall -Werror -o my-grep my-grep.c Then run: prompt> ./my-gre
 
 
 my-zip.c
-Translate: gcc -O2 -Wall -Werror -o my-zip my-zip.c
-Then run: ./my-zip file.txt > output.z
+Translate: gcc my-zip.c -o my-zip
+Then run: ./my-zip filename.txt > filename.z
 
 my-unzip.c
-Translate: gcc -O2 -Wall -Werror -o my-unzip my-unzip.c
-Then run: ./my-unzip output.z > outfile.txt
+Translate: gcc my-unzip.c -o my-unzip
+Then run: ./my-unzip filename.z
 
 *************** Projekti kolmonen ***********************
 
