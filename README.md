@@ -25,10 +25,12 @@ Compile: gcc -O2 -Wall -Werror -o my-grep my-grep.c Then run: prompt> ./my-grep 
 
 
 my-zip.c
+
 Compile: gcc -O2 -Wall -Werror -o my-zip my-zip.c
 Then run: ./my-zip filename.txt > filename.z
 
 my-unzip.c
+
 Compile: gcc -O2 -Wall -Werror -o my-unzip my-unzip.c
 Then run: ./my-unzip filename.z
 
