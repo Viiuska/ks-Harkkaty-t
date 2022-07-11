@@ -15,7 +15,7 @@ void decompressfile(char *filename) {
         if(bytes != 4) {
             break;
         }
-       fread(&curr, 1, 1, fp);{
+       //fread(&curr, 1, 1, fp);{
        for(int i = 0; i < count; i++) {
             fwrite(&curr, 1, 1, stdout);
             }
