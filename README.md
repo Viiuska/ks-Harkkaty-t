@@ -16,20 +16,20 @@ Then run it with prompt> ./reverse
 
 my-cat.c
 
-translate: gcc -O2 -Wall -Werror -o my-cat my-cat.c Then run: prompt> ./my-cat filename
+Compile: gcc -O2 -Wall -Werror -o my-cat my-cat.c Then run: prompt> ./my-cat filename
 
 
 my-grep.c
 
-translate: gcc -O2 -Wall -Werror -o my-grep my-grep.c Then run: prompt> ./my-grep searchterm filename
+Compile: gcc -O2 -Wall -Werror -o my-grep my-grep.c Then run: prompt> ./my-grep searchterm filename
 
 
 my-zip.c
-Translate: gcc my-zip.c -o my-zip
+Compile: gcc -O2 -Wall -Werror -o my-zip my-zip.c
 Then run: ./my-zip filename.txt > filename.z
 
 my-unzip.c
-Translate: gcc my-unzip.c -o my-unzip
+Compile: gcc -O2 -Wall -Werror -o my-unzip my-unzip.c
 Then run: ./my-unzip filename.z
 
 *************** Projekti kolmonen ***********************
