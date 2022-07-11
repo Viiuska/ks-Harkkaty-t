@@ -14,7 +14,7 @@ void decompress(char *path) {
         if(bytes != 4) {
             break;
         }
-       // fread(&curr, 1, 1, fp);{
+       fread(&curr, 1, 1, fp);{
         int i = 0;
         for(i = 0; i < count; i++) {
             fwrite(&curr, 1, 1, stdout);
