@@ -6,7 +6,7 @@ void decompress(char *path) {
     int count = 0;
     FILE *fp = fopen(path, "r");
     if(fp == NULL) {
-        printf("[%s] file does not exist, exiting program ..\n", path);
+        printf("[%s] file does not exist.", path);
         exit(1);
     }
     while(1) {
