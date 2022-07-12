@@ -20,7 +20,6 @@ int main (int argc, char *argv[]) {
         char *contents = NULL;
         size_t len = 0;
         
-        printf("%s:\n", argv[i]);
         while(getline(&contents, &len, fp)!=-1){
             if(strstr(contents , argv[1]) != NULL){
                 printf("%s", contents);
