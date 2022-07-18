@@ -1,6 +1,6 @@
 # ks-Harkkaty-t
 
-This is our course practice project that includes small projects. The first one is a simple program that reads a given text file from bottom top. The second project has four small simple programs that are different UNIX utilities such as cat, grep, zip and unzip. And the third one is a very surface level shell program called wish. We wrote documentation about the project's progress and our learning skills.
+This is our (Viia and Ida) course practice project that includes small projects. The first one is a simple program that reads a given text file from bottom top. The second project has four small simple programs that are different UNIX utilities such as cat, grep, zip and unzip. And the third one is a very surface level shell program called wish. We wrote documentation about the project's progress and our learning skills.
 
 Documentation:https://lut-my.sharepoint.com/:w:/g/personal/viia_mantymaki_student_lut_fi/EdWDdJmp_4xGncaIHD9MDz8BUPFXFt2reJ5VESiZycGsbg?e=raaoup
 
