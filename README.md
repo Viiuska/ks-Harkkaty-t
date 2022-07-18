@@ -2,7 +2,7 @@
 
 Documentation:https://lut-my.sharepoint.com/:w:/g/personal/viia_mantymaki_student_lut_fi/EdWDdJmp_4xGncaIHD9MDz8BUPFXFt2reJ5VESiZycGsbg?e=raaoup
 
-*************** Projekti ykkönen ***********************
+# *************** Projekti ykkönen ***********************
 
 # Files:
 
@@ -10,16 +10,16 @@ reverse.c
 
 input.txt
 
-#How to run:
+# How to run:
 
 reverse.c
 
 Compile: gcc -o reverse reverse.c
 Then run: prompt> ./reverse
 
-*************** Projekti kakkonen ***********************
+# *************** Projekti kakkonen ***********************
 
-#Files:
+# Files:
 
 my-cat.c
 
@@ -30,7 +30,7 @@ my-zip.c
 my-unzip.c
 
 
-#How to run:
+# How to run:
 
 my-cat.c
 
@@ -52,13 +52,13 @@ my-unzip.c
 Compile: gcc -O2 -Wall -Werror -o my-unzip my-unzip.c
 Then run: ./my-unzip filename.z
 
-*************** Projekti kolmonen ***********************
+# *************** Projekti kolmonen ***********************
 
-#Files:
+# Files:
 
 wish.c
 
-#How to run:
+# How to run:
 
 Compile: gcc -o wish wish.c
 Then run: prompt> ./wish.c or prompt> ./wish.c textfilename.txt
