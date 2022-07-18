@@ -39,4 +39,3 @@ Then run: ./my-unzip filename.z
 wish.c
 
 
-batch.txt
