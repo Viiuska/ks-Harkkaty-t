@@ -4,13 +4,13 @@ Documentation:https://lut-my.sharepoint.com/:w:/g/personal/viia_mantymaki_studen
 
 *************** Projekti ykkönen ***********************
 
-Files:
+#Files:
 
 reverse.c
 
 input.txt
 
-How to run:
+#How to run:
 
 reverse.c
 
@@ -19,7 +19,7 @@ Then run: prompt> ./reverse
 
 *************** Projekti kakkonen ***********************
 
-Files:
+#Files:
 
 my-cat.c
 
@@ -30,7 +30,7 @@ my-zip.c
 my-unzip.c
 
 
-How to run:
+#How to run:
 
 my-cat.c
 
@@ -54,11 +54,11 @@ Then run: ./my-unzip filename.z
 
 *************** Projekti kolmonen ***********************
 
-Files:
+#Files:
 
 wish.c
 
-How to run:
+#How to run:
 
 Compile: gcc -o wish wish.c
 Then run: prompt> ./wish.c or prompt> ./wish.c textfilename.txt
