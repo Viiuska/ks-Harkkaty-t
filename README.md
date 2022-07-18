@@ -4,15 +4,33 @@ Documentation:https://lut-my.sharepoint.com/:w:/g/personal/viia_mantymaki_studen
 
 *************** Projekti ykkönen ***********************
 
+Files:
+
 reverse.c
 
 input.txt
 
 How to run:
-download files and translate with gcc command.
-Then run it with prompt> ./reverse
+
+reverse.c
+
+Compile: gcc -o reverse reverse.c
+Then run: prompt> ./reverse
 
 *************** Projekti kakkonen ***********************
+
+Files:
+
+my-cat.c
+
+my-grep.c
+
+my-zip.c
+
+my-unzip.c
+
+
+How to run:
 
 my-cat.c
 
@@ -36,6 +54,11 @@ Then run: ./my-unzip filename.z
 
 *************** Projekti kolmonen ***********************
 
+Files:
+
 wish.c
 
+How to run:
 
+Compile: gcc -o wish wish.c
+Then run: prompt> ./wish.c or prompt> ./wish.c textfilename.txt
