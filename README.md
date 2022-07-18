@@ -1,8 +1,10 @@
 # ks-Harkkaty-t
 
+This is our course practice project that includes mall projects. The first one is simple program that reads the given text file in from down to up. The second project has four small simple programs wich are different UNIX utilities such as cat, grep, zip and unzip. And the third one is very surface level shell program named wish. We wrote a documentation about the project progcess and learning skills.
+
 Documentation:https://lut-my.sharepoint.com/:w:/g/personal/viia_mantymaki_student_lut_fi/EdWDdJmp_4xGncaIHD9MDz8BUPFXFt2reJ5VESiZycGsbg?e=raaoup
 
-## *************** Projekti ykkönen ***********************
+## *************** Project One ***********************
 
 ### Files:
 
@@ -17,7 +19,7 @@ reverse.c
 Compile: gcc -o reverse reverse.c
 Then run: prompt> ./reverse
 
-## *************** Projekti kakkonen ***********************
+## *************** Project Two ***********************
 
 ### Files:
 
@@ -52,7 +54,7 @@ my-unzip.c
 Compile: gcc -O2 -Wall -Werror -o my-unzip my-unzip.c
 Then run: ./my-unzip filename.z
 
-## *************** Projekti kolmonen ***********************
+## *************** Project Three ***********************
 
 ### Files:
 
